@@ -45,6 +45,9 @@ See [OpenAPI contract](docs/openapi.yaml).
 npm test
 ```
 
+The GitHub Actions workflow runs the test suite and validates the Compose configuration for
+pull requests targeting `develop`, `qa`, or `main`, and on feature/release branch pushes.
+
 ## Branching
 
 Changes enter through child branches and pull requests:
